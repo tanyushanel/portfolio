@@ -1,0 +1,37 @@
+.introArticle {
+  height: 100vh;
+  color: var(--light-text);
+  background-image: url("../../../public/assets/images/background-intro.jpeg");
+  background-size: cover;
+  background-position: center;
+  font-weight: 900;
+
+  .buttonDownload {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: inherit;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: ease-out 0.25s;
+    }
+  }
+
+  .nextLink {
+    padding-top: 1rem;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: ease-in-out 0.25s;
+    }
+  }
+
+  .helloSection {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+}
