@@ -29,7 +29,8 @@
 
   .helloSection {
     display: flex;
-    height: 100%;
+    height: calc(100% - 4rem);
+
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
