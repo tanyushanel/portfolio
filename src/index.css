@@ -1,7 +1,12 @@
 :root {
   --light-text: hsl(27, 15%, 72%);
   --darker-text: hsl(27, 5%, 40%);
-  --dark-text: hsl(27, 1%, 10%);
+  --dark-text: hsl(30, 7%, 27%);
+}
+
+*,
+html {
+  scroll-behavior: smooth !important;
 }
 
 body {
@@ -14,7 +19,8 @@ body {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
+
+  color: var(--dark-text);
 }
 
 .pompiere-font {

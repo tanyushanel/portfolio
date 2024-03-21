@@ -5,7 +5,7 @@ export const ContactPage = () => {
       <span className="material-symbols-outlined"> mail </span>
 
       <h4>Email Me At</h4>
-      <a href="mailto:tatyana.nelipovich@gmail.com">
+      <a href="mailto:tatyana.nelipovich@gmail.com" className="pompiere-font">
         tatyana.nelipovich@gmail.com
       </a>
     </article>

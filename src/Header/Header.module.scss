@@ -1,8 +1,27 @@
 .header {
   .menuBox {
-    color: var(--dark-text);
     display: flex;
     gap: 2rem;
     justify-content: center;
+  }
+
+  .menuElement {
+    font-weight: 700;
+    position: relative;
+    &::after {
+      content: "";
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &:hover {
+      &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        border: 1px solid var(--darker-text);
+        transform: scaleX(15);
+        transition: all ease-in 0.25s;
+      }
+    }
   }
 }

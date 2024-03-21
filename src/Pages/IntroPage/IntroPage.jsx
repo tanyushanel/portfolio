@@ -1,6 +1,7 @@
 import { SocialBox } from "../../Social/SocialBox";
 import style from "./IntroPage.module.scss";
 import cx from "classnames";
+import pdf from "../../assets/Tatyana Nelipovich_cv.pdf";
 
 export const IntroPage = () => {
   return (
@@ -12,7 +13,8 @@ export const IntroPage = () => {
           <br /> &lt; Frontend Developer &gt;
         </h1>
         <SocialBox />
-        <button
+        <a
+          href={pdf}
           className={cx(
             "button-transparent",
             "truculenta-font",
@@ -20,7 +22,7 @@ export const IntroPage = () => {
           )}
         >
           Download CV
-        </button>
+        </a>
         <a href="#about">
           <span
             className={cx(
