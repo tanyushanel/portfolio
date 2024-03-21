@@ -23,6 +23,11 @@ body {
   color: var(--dark-text);
 }
 
+article {
+  padding-top: 4rem;
+  scroll-margin-block-start: -1rem;
+}
+
 .pompiere-font {
   font-family: "Pompiere", sans-serif;
   font-optical-sizing: auto;
