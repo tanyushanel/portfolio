@@ -1,7 +1,7 @@
-import { SocialBox } from "../../Social/SocialBox";
 import style from "./IntroPage.module.scss";
 import cx from "classnames";
 import pdf from "../../assets/Tatyana Nelipovich_cv.pdf";
+import { SocialBox } from "./../../components/Social/SocialBox";
 
 export const IntroPage = () => {
   return (

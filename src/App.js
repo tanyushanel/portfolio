@@ -7,10 +7,12 @@ import { ExperiencePage } from "./Pages/ExperiencePage/ExperiencePage";
 import { IntroPage } from "./Pages/IntroPage/IntroPage";
 import { ProjectsPage } from "./Pages/ProjectsPage/ProjectsPage";
 import { ServicesPage } from "./Pages/ServicesPage/ServicesPage";
+import ParticlesBackground from "./components/Particles/ParticlesBackground";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
+      <ParticlesBackground />
       <Header />
       <IntroPage />
       <AboutmePage />
@@ -21,6 +23,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

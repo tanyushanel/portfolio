@@ -1,6 +1,6 @@
-import { SocialBox } from "../Social/SocialBox";
 import style from "./Footer.module.scss";
 import cx from "classnames";
+import { SocialBox } from "./../components/Social/SocialBox";
 
 export const Footer = () => {
   return (
