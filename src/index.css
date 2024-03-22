@@ -28,6 +28,13 @@ article {
   scroll-margin-block-start: -1rem;
 }
 
+article h2::after {
+  color: var(--light-text);
+  font-size: small;
+  content: "── ⋆⋅☆⋅⋆ ──";
+  display: block;
+}
+
 .pompiere-font {
   font-family: "Pompiere", sans-serif;
   font-optical-sizing: auto;
