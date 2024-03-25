@@ -25,6 +25,7 @@ const ParticlesBackground = () => {
 
   return (
     <div style={containerStyle}>
+      {!init && <div>Loading...</div>}
       {init && <Particles id="tsparticles" options={options} />}
     </div>
   );
