@@ -6,13 +6,24 @@ import { ContactPage } from "./Pages/ContactPage/ContactPage";
 import { ExperiencePage } from "./Pages/ExperiencePage/ExperiencePage";
 import { IntroPage } from "./Pages/IntroPage/IntroPage";
 import { ProjectsPage } from "./Pages/ProjectsPage/ProjectsPage";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { ServicesPage } from "./Pages/ServicesPage/ServicesPage";
 const ParticlesBackground = lazy(() =>
   import("./components/Particles/ParticlesBackground")
 );
 
 const App = () => {
+  useEffect(() => {
+    const handleContextMenu = (event) => {
+      event.preventDefault();
+    };
+
+    document.addEventListener("contextmenu", handleContextMenu);
+
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu);
+    };
+  }, []);
   return (
     <div className="App">
       <Suspense fallback={<div className="pompiere-font">Loading...</div>}>
