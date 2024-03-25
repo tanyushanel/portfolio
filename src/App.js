@@ -8,6 +8,7 @@ import { IntroPage } from "./Pages/IntroPage/IntroPage";
 import { ProjectsPage } from "./Pages/ProjectsPage/ProjectsPage";
 import { lazy, Suspense, useEffect } from "react";
 import { ServicesPage } from "./Pages/ServicesPage/ServicesPage";
+import { Spinner } from "./components/Spinner/Spinner";
 const ParticlesBackground = lazy(() =>
   import("./components/Particles/ParticlesBackground")
 );
@@ -24,9 +25,10 @@ const App = () => {
       document.removeEventListener("contextmenu", handleContextMenu);
     };
   }, []);
+
   return (
     <div className="App">
-      <Suspense fallback={<div className="pompiere-font">Loading...</div>}>
+      <Suspense fallback={<Spinner />}>
         <ParticlesBackground />
         <Header />
         <IntroPage />

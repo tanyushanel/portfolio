@@ -5,6 +5,7 @@ import { initParticlesEngine } from "@tsparticles/react";
 
 import { loadSlim } from "@tsparticles/slim";
 import { particlesOptions } from "./particlesOptions";
+import { Spinner } from "./../Spinner/Spinner";
 
 const ParticlesBackground = () => {
   const [init, setInit] = useState(false);
@@ -25,7 +26,7 @@ const ParticlesBackground = () => {
 
   return (
     <div style={containerStyle}>
-      {!init && <div>Loading...</div>}
+      {!init && <Spinner />}
       {init && <Particles id="tsparticles" options={options} />}
     </div>
   );
