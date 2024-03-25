@@ -1,22 +1,28 @@
+import linkedin from "../assets/icons/linkedin-icon.svg";
+import github from "../assets/icons/github-icon.svg";
+import codewars from "../assets/icons/codewars-icon.svg";
+import facebook from "../assets/icons/facebook-icon.svg";
+import instagram from "../assets/icons/instagram-icon.svg";
+
 export const Socials = {
   linkedin: {
-    img: "./assets/icons/linkedin-icon.svg",
+    img: linkedin,
     href: "https://www.linkedin.com/in/tatyana-nelipovich-3a040a1b7/",
   },
   github: {
-    img: "./assets/icons/github-icon.svg",
+    img: github,
     href: "https://github.com/tanyushanel",
   },
   codewars: {
-    img: "./assets/icons/codewars-icon.svg",
+    img: codewars,
     href: "https://www.codewars.com/users/tanyushanel",
   },
   facebook: {
-    img: "./assets/icons/facebook-icon.svg",
+    img: facebook,
     href: "https://www.facebook.com/tanyusha.mikhalchik/",
   },
   instagram: {
-    img: "./assets/icons/instagram-icon.svg",
+    img: instagram,
     href: "https://www.instagram.com/tanyusha.nel/",
   },
 };

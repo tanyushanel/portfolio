@@ -6,21 +6,26 @@ import { ContactPage } from "./Pages/ContactPage/ContactPage";
 import { ExperiencePage } from "./Pages/ExperiencePage/ExperiencePage";
 import { IntroPage } from "./Pages/IntroPage/IntroPage";
 import { ProjectsPage } from "./Pages/ProjectsPage/ProjectsPage";
+import { lazy, Suspense } from "react";
 import { ServicesPage } from "./Pages/ServicesPage/ServicesPage";
-import ParticlesBackground from "./components/Particles/ParticlesBackground";
+const ParticlesBackground = lazy(() =>
+  import("./components/Particles/ParticlesBackground")
+);
 
 const App = () => {
   return (
     <div className="App">
-      <ParticlesBackground />
-      <Header />
-      <IntroPage />
-      <AboutmePage />
-      <ServicesPage />
-      <ExperiencePage />
-      <ProjectsPage />
-      <ContactPage />
-      <Footer />
+      <Suspense fallback={<div className="pompiere-font">Loading...</div>}>
+        <ParticlesBackground />
+        <Header />
+        <IntroPage />
+        <AboutmePage />
+        <ServicesPage />
+        <ExperiencePage />
+        <ProjectsPage />
+        <ContactPage />
+        <Footer />
+      </Suspense>
     </div>
   );
 };

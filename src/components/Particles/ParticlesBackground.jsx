@@ -19,9 +19,14 @@ const ParticlesBackground = () => {
 
   const options = useMemo(() => particlesOptions, []);
 
-  if (init) {
-    return <Particles id="tsparticles" options={options} />;
-  }
-};
+  const containerStyle = {
+    height: "0",
+  };
 
+  return (
+    <div style={containerStyle}>
+      {init && <Particles id="tsparticles" options={options} />}
+    </div>
+  );
+};
 export default ParticlesBackground;
