@@ -1,11 +1,8 @@
 .introArticle {
-  height: 100vh;
-  min-height: calc(100% - 5rem);
+  min-height: 100vh;
   display: flex;
-  flex-basis: max-content;
   flex-direction: column;
   justify-content: space-around;
-
   color: var(--light-text);
   background-image: url("../../assets/images/background-intro.jpeg");
   background-size: cover;
