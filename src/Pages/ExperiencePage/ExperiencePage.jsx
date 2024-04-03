@@ -11,7 +11,7 @@ export const ExperiencePage = () => {
       </ul>
       <section className="hire-me">
         <h3>I'm available for Freelance</h3>
-        <button>Hire Me!</button>
+        <button className="button-transparent">Hire Me!</button>
       </section>
     </article>
   );

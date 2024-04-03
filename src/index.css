@@ -24,7 +24,7 @@ body {
 }
 
 article {
-  padding-top: 4rem;
+  padding: 4rem;
   scroll-margin-block-start: -1rem;
 }
 
@@ -71,10 +71,16 @@ code {
   border: 2px solid var(--light-text);
   background: none;
   color: inherit;
+  margin: 1rem 0;
 }
 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section-content {
+  display: flex;
+  color: var(--darker-text);
 }

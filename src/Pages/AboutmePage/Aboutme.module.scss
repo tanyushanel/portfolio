@@ -1,0 +1,26 @@
+.borderIntermed {
+  border-right: var(--light-text) solid 16rem;
+}
+
+.borderAdv {
+  border-right: var(--light-text) solid 8rem;
+}
+
+.borderAdvBeg {
+  border-right: var(--light-text) solid 20rem;
+}
+
+.borderBeg {
+  border-right: var(--light-text) solid 24rem;
+}
+
+.scale {
+  height: 5px;
+  background: var(--darker-text);
+}
+
+.techItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: smaller;
+}
