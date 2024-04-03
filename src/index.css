@@ -23,8 +23,12 @@ body {
   color: var(--dark-text);
 }
 
+h2 {
+  margin: 0;
+}
+
 article {
-  padding: 4rem;
+  padding: 5rem 4rem 0;
   scroll-margin-block-start: -1rem;
 }
 
