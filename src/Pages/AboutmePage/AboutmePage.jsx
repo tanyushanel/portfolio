@@ -13,78 +13,82 @@ export const AboutmePage = () => {
         Exploring and implementing new technologies is something I find
         particularly rewarding.
       </section>
-      <ul>
-        <li>
-          <p className={style.techItem}>
-            <b>Javascript</b>
-            <span>Intermediate</span>
-          </p>
-          <p className={cx(style.borderIntermed, style.scale)}></p>
-        </li>
-        <li>
-          <p className={style.techItem}>
-            <b>Typescript</b>
-            <span>Intermediate</span>
-          </p>
-          <p className={cx(style.borderIntermed, style.scale)}></p>
-        </li>
-        <li>
-          <p className={style.techItem}>
-            <b>Angular</b>
-            <span>Intermediate</span>
-          </p>
-          <p className={cx(style.borderIntermed, style.scale)}></p>
-        </li>
-        <li>
-          <p className={style.techItem}>
-            <b>HTML</b>
-            <span>Advanced</span>
-          </p>
-          <p className={cx(style.borderAdv, style.scale)}></p>
-        </li>
-        <li>
-          <p className={style.techItem}>
-            <b>CSS</b>
-            <span>Advanced</span>
-          </p>
-          <p className={cx(style.borderAdv, style.scale)}></p>
-        </li>
-        <li>
-          <p className={style.techItem}>
-            <b>RxJS</b>
-            <span>Advanced Beginner</span>
-          </p>
-          <p className={cx(style.borderAdvBeg, style.scale)}></p>
-        </li>
-        <li>
-          <p className={style.techItem}>
-            <b>ReactJs</b>
-            <span>Beginner</span>
-          </p>
-          <p className={cx(style.borderBeg, style.scale)}></p>
-        </li>
-        <li>
-          <p className={style.techItem}>
-            <b>Express.js</b>
-            <span>Beginner</span>
-          </p>
-          <p className={cx(style.borderBeg, style.scale)}></p>
-        </li>
-        <li>
-          <p className={style.techItem}>
-            <b>Redux</b>
-            <span>Beginner</span>
-          </p>
-          <p className={cx(style.borderBeg, style.scale)}></p>
-        </li>
-        <li>
-          <p className={style.techItem}>
-            <b>NgRx</b>
-            <span>Beginner</span>
-          </p>
-          <p className={cx(style.borderBeg, style.scale)}></p>
-        </li>
-      </ul>
+      <section className={style.techSection}>
+        <ul>
+          <li>
+            <p className={style.techItem}>
+              <b>Javascript</b>
+              <span>Intermediate</span>
+            </p>
+            <p className={cx(style.borderIntermed, style.scale)}></p>
+          </li>
+          <li>
+            <p className={style.techItem}>
+              <b>Typescript</b>
+              <span>Intermediate</span>
+            </p>
+            <p className={cx(style.borderIntermed, style.scale)}></p>
+          </li>
+          <li>
+            <p className={style.techItem}>
+              <b>Angular</b>
+              <span>Intermediate</span>
+            </p>
+            <p className={cx(style.borderIntermed, style.scale)}></p>
+          </li>
+          <li>
+            <p className={style.techItem}>
+              <b>HTML</b>
+              <span>Advanced</span>
+            </p>
+            <p className={cx(style.borderAdv, style.scale)}></p>
+          </li>
+          <li>
+            <p className={style.techItem}>
+              <b>CSS</b>
+              <span>Advanced</span>
+            </p>
+            <p className={cx(style.borderAdv, style.scale)}></p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <p className={style.techItem}>
+              <b>RxJS</b>
+              <span>Advanced Beginner</span>
+            </p>
+            <p className={cx(style.borderAdvBeg, style.scale)}></p>
+          </li>
+          <li>
+            <p className={style.techItem}>
+              <b>ReactJs</b>
+              <span>Beginner</span>
+            </p>
+            <p className={cx(style.borderBeg, style.scale)}></p>
+          </li>
+          <li>
+            <p className={style.techItem}>
+              <b>Express.js</b>
+              <span>Beginner</span>
+            </p>
+            <p className={cx(style.borderBeg, style.scale)}></p>
+          </li>
+          <li>
+            <p className={style.techItem}>
+              <b>Redux</b>
+              <span>Beginner</span>
+            </p>
+            <p className={cx(style.borderBeg, style.scale)}></p>
+          </li>
+          <li>
+            <p className={style.techItem}>
+              <b>NgRx</b>
+              <span>Beginner</span>
+            </p>
+            <p className={cx(style.borderBeg, style.scale)}></p>
+          </li>
+        </ul>
+      </section>
     </article>
   );
 };

@@ -37,6 +37,7 @@ article h2::after {
   font-size: small;
   content: "──   ⋆⋅☆⋅⋆    ──";
   display: block;
+  margin-bottom: 1rem;
 }
 
 .pompiere-font {
@@ -54,9 +55,14 @@ article h2::after {
 h1 {
   font-size: 5rem;
 }
+ul {
+  padding: 0;
+  margin: 0;
+}
 
 li {
   list-style: none;
+  margin: 1rem 0;
 }
 
 a {
@@ -67,6 +73,10 @@ a {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.material-symbols-outlined {
+  color: var(--darker-text);
 }
 
 .button-transparent {

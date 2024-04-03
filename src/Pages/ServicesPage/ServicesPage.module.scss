@@ -1,0 +1,27 @@
+.serviceList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  & .serviceItem {
+    border: 1px solid var(--light-text);
+    border-radius: 0.25rem;
+    padding: 1rem;
+
+    & p {
+      font-size: smaller;
+      color: var(--darker-text);
+    }
+
+    & span {
+      font-size: 250%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .serviceList {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}

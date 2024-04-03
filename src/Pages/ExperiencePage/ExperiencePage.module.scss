@@ -1,0 +1,18 @@
+.articleExp {
+  margin-top: 4rem;
+  background: url("../../assets/images/bg-2.jpeg");
+  height: 15rem;
+  background-size: cover;
+  background-position: center;
+}
+.hireMe {
+  color: var(--light-text);
+  font-size: large;
+
+  & a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: inherit;
+  }
+}

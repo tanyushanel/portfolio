@@ -1,26 +1,46 @@
 .borderIntermed {
-  border-right: var(--light-text) solid 16rem;
+  width: 65%;
 }
 
 .borderAdv {
-  border-right: var(--light-text) solid 8rem;
+  width: 80%;
 }
 
 .borderAdvBeg {
-  border-right: var(--light-text) solid 20rem;
+  width: 40%;
 }
 
 .borderBeg {
-  border-right: var(--light-text) solid 24rem;
+  width: 25%;
 }
 
 .scale {
   height: 5px;
   background: var(--darker-text);
+  border-right: var(--light-text) solid 40rem;
 }
 
 .techItem {
   display: flex;
   justify-content: space-between;
   font-size: smaller;
+}
+
+.techSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .techSection {
+    flex-direction: row;
+    gap: 1rem;
+
+    & ul {
+      width: 50%;
+      overflow-x: hidden;
+    }
+  }
 }

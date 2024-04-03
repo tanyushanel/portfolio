@@ -1,6 +1,4 @@
 .contactItem {
-  display: inline-block;
-  width: 20rem;
   border: 1px solid var(--light-text);
   border-radius: 0.25rem;
   padding: 1rem;
@@ -12,11 +10,5 @@
 
   & span {
     font-size: 250%;
-  }
-
-  & a {
-    font-size: 150%;
-    font-weight: 700;
-    color: var(--darker-text);
   }
 }
