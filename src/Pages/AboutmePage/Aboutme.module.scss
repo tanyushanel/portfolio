@@ -17,7 +17,7 @@
 .scale {
   height: 5px;
   background: var(--darker-text);
-  border-right: var(--light-text) solid 40rem;
+  border-right: var(--light-text) solid 50rem;
 }
 
 .techItem {
@@ -36,7 +36,7 @@
 @media screen and (min-width: 768px) {
   .techSection {
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
 
     & ul {
       width: 50%;
