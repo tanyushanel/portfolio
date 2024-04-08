@@ -23,7 +23,7 @@ export const Header = () => {
   }, [width]);
 
   const onMenuToggle = () => {
-    width <= 768 && setIsMenuOpen(!isMenuOpen);
+    if (width <= 768) setIsMenuOpen(!isMenuOpen);
   };
 
   const onMenuClose = () => {
