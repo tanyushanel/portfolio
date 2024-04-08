@@ -5,9 +5,11 @@ export const AboutmePage = () => {
   return (
     <article className="article-about" id="about">
       <h2 className="art-heading">About Me</h2>
-      <h3 className="truculenta-font">Hello, I'm Tatsiana Nelipovich</h3>
-      <h5>Frontend Developer</h5>
-      <section className="section-content">
+      <h3 className="truculenta-font ">
+        &lt; Hello, I'm Tatsiana Nelipovich &gt;
+      </h3>
+      <h5> &lt; Frontend Developer &gt;</h5>
+      <section className="section-content ">
         Frontend development captivates me the most. I'm dedicated to enhancing
         my skills in this area and take pleasure in the outcomes of my efforts.
         Exploring and implementing new technologies is something I find

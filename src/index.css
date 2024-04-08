@@ -1,7 +1,9 @@
 :root {
-  --light-text: hsl(27, 15%, 72%);
-  --darker-text: hsl(27, 5%, 40%);
-  --dark-text: hsl(30, 7%, 27%);
+  --light-text: rgb(194, 183, 173);
+  --darker-text: rgb(107, 101, 97);
+  --dark-text: rgb(74, 69, 64);
+  --darker-text-opacity: rgba(107, 101, 97, 0.9);
+  --light-text-opacity: rgba(194, 183, 173, 0.9);
 }
 
 *,
@@ -53,7 +55,7 @@ article h2::after {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4.75rem;
 }
 ul {
   padding: 0;
@@ -97,4 +99,9 @@ code {
 .section-content {
   display: flex;
   color: var(--darker-text);
+}
+
+section {
+  max-width: 1024px;
+  margin: 0 auto;
 }

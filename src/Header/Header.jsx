@@ -2,37 +2,61 @@ import style from "./Header.module.scss";
 import React, { useState, useEffect } from "react";
 import { Navigation } from "./../constants/Navigation";
 import cx from "classnames";
+import { useWindowSize } from "./../hooks/useWindowSize";
 export const Header = () => {
   const nav = Object.values(Navigation);
+
+  const { width } = useWindowSize();
+
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   useEffect(() => {
+    setIsMenuOpen(width > 768);
     const threshold = document.getElementById("about").offsetTop;
     const onScroll = () => {
-      // Set state based on scroll position
-      setIsScrolled(window.scrollY > threshold);
+      setIsScrolled(window.scrollY >= threshold);
     };
 
-    // Attach scroll event listener to window
     window.addEventListener("scroll", onScroll);
-
-    // Clean up by removing the event listener
-    // return () => window.removeEventListener("scroll", onScroll);
     return;
-  }, []);
+  }, [width]);
+
+  const onMenuToggle = () => {
+    width <= 768 && setIsMenuOpen(!isMenuOpen);
+  };
+
+  const onMenuClose = () => {
+    width <= 768 && setIsMenuOpen(false);
+  };
 
   return (
     <header className={isScrolled ? style.scrolled : style.header}>
       <div className="logo"></div>
       <nav>
-        <ul className={style.menuBox}>
-          {nav.map(({ href, name }) => {
-            return (
-              <li key={href} className={cx(style.menuElement, "pompiere-font")}>
-                <a href={href}>{name}</a>
-              </li>
-            );
-          })}
-        </ul>
+        <span
+          className={cx("material-symbols-outlined", style.menuCollapsedIcon)}
+          onClick={onMenuToggle}
+        >
+          menu
+        </span>
+        {isMenuOpen && (
+          <ul className={style.menuBox}>
+            {nav.map(({ href, name }) => {
+              return (
+                <li
+                  key={href}
+                  className={cx(style.menuElement, "pompiere-font")}
+                >
+                  <a href={href} onClick={onMenuClose}>
+                    {" "}
+                    &lt; {name} &gt;
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        )}
       </nav>
     </header>
   );

@@ -14,20 +14,10 @@
     padding: 0.5rem 1rem;
     font-weight: bold;
     font-size: inherit;
-
-    &:hover {
-      transform: scaleX(1.1);
-      transition: ease-out 0.25s;
-    }
   }
 
   .nextLink {
     padding-top: 1rem;
-
-    &:hover {
-      transform: translateY(-1rem);
-      transition: ease-in-out 0.25s;
-    }
   }
 
   .helloSection {
@@ -53,5 +43,17 @@
     100% {
       transform: translateY(0);
     }
+  }
+}
+
+@media (hover: hover) and (any-hover: hover) {
+  .buttonDownload:hover {
+    transform: scaleX(1.1);
+    transition: ease-out 0.25s;
+  }
+
+  .nextLink:hover {
+    transform: translateY(-1rem);
+    transition: ease-in-out 0.25s;
   }
 }
