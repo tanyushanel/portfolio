@@ -27,7 +27,7 @@ export const Header = () => {
   };
 
   const onMenuClose = () => {
-    width <= 768 && setIsMenuOpen(false);
+    if (width <= 768) setIsMenuOpen(false);
   };
 
   return (
