@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.13c203e6.css",
-    "main.js": "/portfolio/static/js/main.77aa9220.js",
+    "main.js": "/portfolio/static/js/main.19a0e8f6.js",
     "static/js/3265.55c47b21.chunk.js": "/portfolio/static/js/3265.55c47b21.chunk.js",
     "static/js/1927.d5837ebd.chunk.js": "/portfolio/static/js/1927.d5837ebd.chunk.js",
     "static/js/7590.3c69437b.chunk.js": "/portfolio/static/js/7590.3c69437b.chunk.js",
@@ -74,7 +74,7 @@
     "static/js/4825.2e510aec.chunk.js": "/portfolio/static/js/4825.2e510aec.chunk.js",
     "static/media/background-intro.jpeg": "/portfolio/static/media/background-intro.238d95ecf8570aea2eb4.jpeg",
     "static/media/bg-2.jpeg": "/portfolio/static/media/bg-2.6f7333b97c213be9fffc.jpeg",
-    "static/media/Tatyana Nelipovich_cv.pdf": "/portfolio/static/media/Tatyana Nelipovich_cv.d541f9e5a3b07c47ec15.pdf",
+    "static/media/Tatyana Nelipovich_cv.pdf": "/portfolio/static/media/Tatyana Nelipovich_cv.8248dc7059a24412c70f.pdf",
     "static/media/codewars-icon.svg": "/portfolio/static/media/codewars-icon.442be4dec2c447f7b0ff3965a9357150.svg",
     "static/media/github-icon.svg": "/portfolio/static/media/github-icon.be5631762c4b806d40b91511796a6dcf.svg",
     "static/media/instagram-icon.svg": "/portfolio/static/media/instagram-icon.cf5971b97edd5c326455212ee9bf46b6.svg",
@@ -82,7 +82,7 @@
     "index.html": "/portfolio/index.html",
     "static/media/facebook-icon.svg": "/portfolio/static/media/facebook-icon.8eac134090465d6d317a2cd02719d644.svg",
     "main.13c203e6.css.map": "/portfolio/static/css/main.13c203e6.css.map",
-    "main.77aa9220.js.map": "/portfolio/static/js/main.77aa9220.js.map",
+    "main.19a0e8f6.js.map": "/portfolio/static/js/main.19a0e8f6.js.map",
     "3265.55c47b21.chunk.js.map": "/portfolio/static/js/3265.55c47b21.chunk.js.map",
     "1927.d5837ebd.chunk.js.map": "/portfolio/static/js/1927.d5837ebd.chunk.js.map",
     "7590.3c69437b.chunk.js.map": "/portfolio/static/js/7590.3c69437b.chunk.js.map",
@@ -156,6 +156,6 @@
   },
   "entrypoints": [
     "static/css/main.13c203e6.css",
-    "static/js/main.77aa9220.js"
+    "static/js/main.19a0e8f6.js"
   ]
 }
