@@ -18,7 +18,7 @@ export const IntroPage = () => {
   return (
     <article className={style.introArticle} id="intro">
       <section className={style.helloSection}>
-        <h2 className="pompiere-font">Hello & Welcome</h2>
+        <h2 className="pompiere-font">&lt; Hello & Welcome &gt;</h2>
         <h1 className="truculenta-font">
           I'm Tatsiana Nelipovich
           <br /> &lt; Frontend Developer &gt;

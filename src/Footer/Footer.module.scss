@@ -1,8 +1,19 @@
 .footer {
+  position: relative;
   margin-top: 4rem;
   display: flex;
-  justify-content: space-between;
-  padding: 0 4rem;
+  justify-content: space-around;
   align-items: center;
   box-shadow: 0px -20px 100px 20px rgba(103, 101, 90, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    justify-content: center;
+  }
+  .copyright {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.75rem;
+  }
 }

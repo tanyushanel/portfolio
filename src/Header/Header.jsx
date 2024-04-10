@@ -49,8 +49,7 @@ export const Header = () => {
                   className={cx(style.menuElement, "pompiere-font")}
                 >
                   <a href={href} onClick={onMenuClose}>
-                    {" "}
-                    &lt; {name} &gt;
+                    {name}
                   </a>
                 </li>
               );

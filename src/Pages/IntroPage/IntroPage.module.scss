@@ -57,3 +57,9 @@
     transition: ease-in-out 0.25s;
   }
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.75rem;
+  }
+}
