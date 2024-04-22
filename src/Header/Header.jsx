@@ -1,5 +1,5 @@
 import style from "./Header.module.scss";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Navigation } from "./../constants/Navigation";
 import cx from "classnames";
 import { useWindowSize } from "./../hooks/useWindowSize";

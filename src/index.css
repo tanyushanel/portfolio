@@ -12,8 +12,8 @@ html {
 }
 
 body {
-  min-width: 360px;
   width: 100vw;
+  min-width: 420px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -30,7 +30,7 @@ h2 {
 }
 
 article {
-  padding: 5rem 2rem;
+  padding: 5rem 1rem;
   scroll-margin-block-start: -1rem;
 }
 
@@ -105,4 +105,11 @@ code {
 section {
   max-width: 1024px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 368px) {
+  h1,
+  h2 {
+    font-size: 1em;
+  }
 }
