@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1c8526e8.css",
-    "main.js": "/portfolio/static/js/main.7cde144e.js",
+    "main.css": "/portfolio/static/css/main.555755f0.css",
+    "main.js": "/portfolio/static/js/main.4887e0c7.js",
     "static/js/3265.55c47b21.chunk.js": "/portfolio/static/js/3265.55c47b21.chunk.js",
     "static/js/1927.d5837ebd.chunk.js": "/portfolio/static/js/1927.d5837ebd.chunk.js",
     "static/js/7590.3c69437b.chunk.js": "/portfolio/static/js/7590.3c69437b.chunk.js",
@@ -82,8 +82,8 @@
     "static/media/linkedin-icon.svg": "/portfolio/static/media/linkedin-icon.ec68ad813fa617d46106afcf62ac5392.svg",
     "index.html": "/portfolio/index.html",
     "static/media/facebook-icon.svg": "/portfolio/static/media/facebook-icon.8e3e1f176cb46f65735e88cbaac6c3aa.svg",
-    "main.1c8526e8.css.map": "/portfolio/static/css/main.1c8526e8.css.map",
-    "main.7cde144e.js.map": "/portfolio/static/js/main.7cde144e.js.map",
+    "main.555755f0.css.map": "/portfolio/static/css/main.555755f0.css.map",
+    "main.4887e0c7.js.map": "/portfolio/static/js/main.4887e0c7.js.map",
     "3265.55c47b21.chunk.js.map": "/portfolio/static/js/3265.55c47b21.chunk.js.map",
     "1927.d5837ebd.chunk.js.map": "/portfolio/static/js/1927.d5837ebd.chunk.js.map",
     "7590.3c69437b.chunk.js.map": "/portfolio/static/js/7590.3c69437b.chunk.js.map",
@@ -156,7 +156,7 @@
     "4825.2e510aec.chunk.js.map": "/portfolio/static/js/4825.2e510aec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c8526e8.css",
-    "static/js/main.7cde144e.js"
+    "static/css/main.555755f0.css",
+    "static/js/main.4887e0c7.js"
   ]
 }
