@@ -1,6 +1,15 @@
+.grid {
+  display: flex;
+  justify-content: center;
+}
+
 .gridItem {
   width: 10rem;
-  height: fit-content;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--light-text);
+  overflow: hidden;
+
   & img {
     width: 100%;
   }
