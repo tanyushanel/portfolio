@@ -1,4 +1,3 @@
-import resource from "../../assets/images/projects/resource.png";
 import style from "./ProjectPage.module.scss";
 
 export const ProjectsPage = () => {
