@@ -6,11 +6,7 @@ export const ProjectsPage = () => {
     <article className="article-projects" id="projects">
       <h2>My Projects</h2>
       <ul className={style.grid}>
-        <li className={style.gridItem}>
-          <a href="https://tanyushanel.github.io/coffee-shop-react">
-            <img src={resource} alt="source" />
-          </a>
-        </li>
+        <li className={style.gridItem}></li>
       </ul>
     </article>
   );
